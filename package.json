@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Media Streaming Assignment for Rich Media II",
+  "main": "./src/server.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avix101/streaming-media-assignment.git"
+  },
+  "author": "Stasha Blank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avix101/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/Avix101/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
